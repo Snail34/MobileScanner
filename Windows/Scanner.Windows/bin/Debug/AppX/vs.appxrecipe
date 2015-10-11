@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EGOR</Machine>
+    <WindowsUser>Егор</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9b03090b-bd24-4b8f-b061-6963b0613b57</PackageIdentityName>
+    <IntermediateOutputPath>D:\Scanner\Windows\Scanner.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E13B3CA8125E1C7A0BE840899A79F079E6872D9122A5BA81E3644D68E1825357</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9b03090b-bd24-4b8f-b061-6963b0613b57_1.0.0.0_neutral__q3nhdbj7c0jrr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9b03090b-bd24-4b8f-b061-6963b0613b57_q3nhdbj7c0jrr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9b03090b-bd24-4b8f-b061-6963b0613b57</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Егор</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-21T07:57:09.548</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\Scanner.Windows.exe">
+      <PackagePath>Scanner.Windows.exe</PackagePath>
+      <Modified>2015-05-21T20:09:40.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Shared\Scanner.Core\bin\Debug\Scanner.Core.dll">
+      <PackagePath>Scanner.Core.dll</PackagePath>
+      <Modified>2015-05-21T20:09:37.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows.ViewModels\bin\Debug\Scanner.Windows.ViewModels.dll">
+      <PackagePath>Scanner.Windows.ViewModels.dll</PackagePath>
+      <Modified>2015-05-21T20:09:38.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows.ViewModels\bin\Debug\Scanner.Windows.Core.dll">
+      <PackagePath>Scanner.Windows.Core.dll</PackagePath>
+      <Modified>2015-05-21T20:09:37.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\Assets\IMG_1065.JPG">
+      <PackagePath>Assets\IMG_1065.JPG</PackagePath>
+      <Modified>2013-08-12T14:20:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-21T07:56:36.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\Views\MainView\MainView.xbf">
+      <PackagePath>Views\MainView\MainView.xbf</PackagePath>
+      <Modified>2015-05-21T12:13:02.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\Scanner.Windows.xr.xml">
+      <PackagePath>Scanner.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-21T12:13:02.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Scanner\Windows\Scanner.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-21T20:09:40.534</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

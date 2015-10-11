@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\align.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\calibrate.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\contrast_preserve.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\denoise_tvl1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\denoising.cuda.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hdr_common.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\inpaint.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\merge.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\npr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\seamless_cloning.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\seamless_cloning_impl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\tonemap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\arrays.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\contrast_preserve.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_denoising_invoker.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_denoising_invoker_commons.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_multi_denoising_invoker.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hdr_common.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\npr.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\seamless_cloning.hpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,111 @@
+﻿<UserControl
+    x:Name="Crop"
+    x:Class="Scanner.Windows.Views.PhotoView.CropControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scanner.Windows.Views.PhotoView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:extensions="using:Scanner.Core.ControlExtentions"
+    xmlns:converters="using:Scanner.Core.Converters"
+    xmlns:rotationExtensions="using:Scanner.Core.ControlExtentions"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <Style x:Key="CustomControlStyle" TargetType="local:CustomControl">
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Height" Value="30" />
+        </Style>
+
+        <extensions:ImageExtensions x:Key="ImageExtensions" />
+        <converters:PositionConverter x:Key="PositionConverter" />
+    </UserControl.Resources>
+
+    <Grid x:Name="OuterGrid" RenderTransformOrigin="0.5, 0.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Viewbox x:ConnectionId='1' x:Name="vb" 
+                 Grid.Column="1" 
+                                                  >
+            <Image x:Name="Image"
+                   extensions:ImageExtensions.File="{Binding ImageFile, ElementName=Crop}"
+ />
+        </Viewbox>
+        <Canvas x:Name="ImageField" Grid.Column="1">
+            <local:CustomControl x:ConnectionId='2' x:Name="LeftTop" Style="{StaticResource CustomControlStyle}" 
+                                 ManipulationMode="TranslateX,TranslateY"
+                                                                              
+                                 CurrentPosition="{Binding LeftTopPosition, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Top="{Binding LeftTopY, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Left="{Binding LeftTopX, ElementName=Crop, Mode=TwoWay}" />
+
+            <local:CustomControl x:ConnectionId='3' x:Name="RightTop" Style="{StaticResource CustomControlStyle}" 
+                                 ManipulationMode="TranslateX,TranslateY"
+                                                                               
+                                 CurrentPosition="{Binding RightTopPosition, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Top="{Binding RightTopY, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Left="{Binding RightTopX, ElementName=Crop, Mode=TwoWay}" />
+
+            <local:CustomControl x:ConnectionId='4' x:Name="LeftBottom" Style="{StaticResource CustomControlStyle}" 
+                                 ManipulationMode="TranslateX,TranslateY"
+                                                                               
+                                 CurrentPosition="{Binding LeftBottomPosition, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Top="{Binding LeftBottomY, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Left="{Binding LeftBottomX, ElementName=Crop, Mode=TwoWay}" />
+
+            <local:CustomControl x:ConnectionId='5' x:Name="RightBottom" Style="{StaticResource CustomControlStyle}" 
+                                 ManipulationMode="TranslateX,TranslateY"
+                                                                               
+                                 CurrentPosition="{Binding RightBottomPosition, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Top="{Binding RightBottomY, ElementName=Crop, Mode=TwoWay}"
+                                 Canvas.Left="{Binding RightBottomX, ElementName=Crop, Mode=TwoWay}"/>
+
+            <Path Stroke="Lime"
+                  StrokeThickness="2">
+                <Path.Data>
+                    <LineGeometry StartPoint="{Binding CurrentPosition, ElementName=LeftTop, 
+                        Mode=TwoWay}" 
+                                  EndPoint="{Binding CurrentPosition, ElementName=LeftBottom, 
+                        Mode=TwoWay}">
+                    </LineGeometry>
+                </Path.Data>
+            </Path>
+
+            <Path Stroke="Lime" StrokeThickness="2">
+                <Path.Data>
+                    <LineGeometry x:Name="LeftRight" StartPoint="{Binding CurrentPosition, ElementName=LeftBottom}" 
+                              EndPoint="{Binding CurrentPosition, ElementName=RightBottom}">
+                    </LineGeometry>
+                </Path.Data>
+            </Path>
+
+            <Path Stroke="Lime" StrokeThickness="2">
+                <Path.Data>
+                    <LineGeometry StartPoint="{Binding CurrentPosition, ElementName=RightBottom}" 
+                              EndPoint="{Binding CurrentPosition, ElementName=RightTop}">
+                    </LineGeometry>
+                </Path.Data>
+            </Path>
+
+            <Path Stroke="Lime" StrokeThickness="2">
+                <Path.Data>
+                    <LineGeometry StartPoint="{Binding CurrentPosition, ElementName=LeftTop, Mode=TwoWay}" 
+                              EndPoint="{Binding CurrentPosition, ElementName=RightTop}">
+                    </LineGeometry>
+                </Path.Data>
+            </Path>
+            <Canvas.RenderTransform>
+                <CompositeTransform />
+            </Canvas.RenderTransform>
+        </Canvas>
+        <Grid.RenderTransform>
+            <CompositeTransform Rotation="{Binding RotationAngle, Mode=TwoWay}"/>
+        </Grid.RenderTransform>
+    </Grid>
+</UserControl>
+

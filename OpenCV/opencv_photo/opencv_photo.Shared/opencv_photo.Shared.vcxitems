@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9c280bbf-18a4-4a61-916c-b3ea92199b10}</ItemsProjectGuid>
+    <ItemsRootNamespace>opencv_photo</ItemsRootNamespace>
+    <ItemsProjectName>opencv_photo.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\align.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\calibrate.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\contrast_preserve.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\denoise_tvl1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\denoising.cuda.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hdr_common.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\inpaint.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\merge.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\npr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\seamless_cloning.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\seamless_cloning_impl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\tonemap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\arrays.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\contrast_preserve.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_denoising_invoker.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_denoising_invoker_commons.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_nlmeans_multi_denoising_invoker.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hdr_common.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\npr.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\seamless_cloning.hpp" />
+  </ItemGroup>
+</Project>

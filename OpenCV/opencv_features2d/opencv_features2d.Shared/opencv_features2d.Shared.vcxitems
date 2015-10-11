@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{B5ADF3AE-B4E3-4BDA-AFE6-E4077DB244D7}</ItemsProjectGuid>
+    <ItemsRootNamespace>opencv_features2d</ItemsRootNamespace>
+    <ItemsProjectName>opencv_features2d.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\agast.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\agast_score.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\akaze.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\bagofwords.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\blobdetector.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\brisk.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\draw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\dynamic.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\evaluation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\fast_score.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\feature2d.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\gftt.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\kaze.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\keypoint.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\mser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\agast_score.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\fast_score.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+  </ItemGroup>
+</Project>

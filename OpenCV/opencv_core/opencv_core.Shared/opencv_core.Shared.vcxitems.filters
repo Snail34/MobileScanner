@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\algorithm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\alloc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\arithm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\array.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\command_line_parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\conjugate_gradient.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\convert.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\copy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cuda_gpu_mat.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cuda_host_mem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cuda_info.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cuda_stream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\datastructs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\directx.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\downhill_simplex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\dxt.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\gl_core_3_1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\glob.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\kmeans.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lapack.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lda.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lpsolver.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\mathfuncs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\matmul.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\matop.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\matrix.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ocl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\opengl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\out.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\parallel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\parallel_pthreads.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\pca.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\persistence.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\rand.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\stat.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\stl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\system.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\tables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\types.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\umatrix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\bufferpool.impl.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\directx.inc.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\gl_core_3_1.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+  </ItemGroup>
+</Project>

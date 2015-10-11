@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\Redist\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.pri
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\Redist\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.pri
+D:\Projects\Scanner\packages\portable.aforge.core.2.2.5.50513\lib\netcore451\AForge.pri
+D:\Projects\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Platform.pri
+D:\Projects\Scanner\Shared\Scanner.Core\bin\Debug\Scanner.Core.pri
+D:\Projects\Scanner\Shared\Scanner.DataAccess\bin\Debug\Scanner.DataAccess.pri
+D:\Projects\Scanner\Shared\Scanner.Models\bin\Debug\Scanner.Models.pri
+D:\Projects\Scanner\Windows\Scanner.Windows.Core\bin\ARM\Debug\Scanner.Windows.Core.pri
+D:\Projects\Scanner\Windows\Scanner.Windows.Core\bin\ARM\Debug\Shim.Drawing.pri
+D:\Projects\Scanner\Windows\Scanner.Windows.Core\bin\ARM\Debug\Shim.pri
+D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\ARM\Debug\Scanner.Windows.ViewModels.pri
+D:\Projects\Scanner\Windows\Scanner.Windows\obj\ARM\Debug\Microsoft.Practices.ServiceLocation.pri

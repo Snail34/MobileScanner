@@ -1,0 +1,18 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\projects\scanner\windows\scanner.windows\obj\arm\debug\intermediatexaml\scanner.windows.exe" HashGuid="4114d07b-2e70-20a5-b3a0-e94784b641e6" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\portable.mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.dll" HashGuid="da07be64-1093-25cd-c992-377d44b6dd02" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\portable.mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\portable.mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.platform.dll" HashGuid="54c1f1ed-b921-337f-8ad6-f2d8c553df06" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="d:\projects\scanner\shared\scanner.core\bin\debug\scanner.core.dll" HashGuid="1cf400cf-77d2-77c2-7076-91895634aca1" />
+    <ReferenceAssembly PathName="d:\projects\scanner\shared\scanner.dataaccess\bin\debug\scanner.dataaccess.dll" HashGuid="d4ca51bf-4afa-7e79-96cb-d2b9770d32d5" />
+    <ReferenceAssembly PathName="d:\projects\scanner\shared\scanner.models\bin\debug\scanner.models.dll" HashGuid="fdc92428-c397-d6c2-c917-1f3b810d424d" />
+    <ReferenceAssembly PathName="d:\projects\scanner\windows\scanner.windows.viewmodels\bin\arm\debug\scanner.windows.viewmodels.dll" HashGuid="38387410-c48e-9671-5d38-ca77d1e15ff0" />
+    <ReferenceAssembly PathName="d:\projects\scanner\packages\microsoft.windows.ocr.1.0.0\lib\win81\arm\windowspreview.media.ocr.winmd" HashGuid="a5310a53-1cc2-dceb-da35-610421ecb7df" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

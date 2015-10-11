@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\bgfg_KNN.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\camshift.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\compat_video.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ecc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\kalman.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lkpyramid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\lkpyramid.hpp" />
+  </ItemGroup>
+</Project>

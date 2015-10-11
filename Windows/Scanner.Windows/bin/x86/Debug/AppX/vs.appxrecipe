@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EGOR</Machine>
+    <WindowsUser>Egor</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>9b03090b-bd24-4b8f-b061-6963b0613b57</PackageIdentityName>
+    <IntermediateOutputPath>D:\Projects\Scanner\Windows\Scanner.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>7A4586685B7268AB0CCE274654B4702FA116293CF0457E73E74EF1B703226C5D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9b03090b-bd24-4b8f-b061-6963b0613b57_1.0.0.0_x86__q3nhdbj7c0jrr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9b03090b-bd24-4b8f-b061-6963b0613b57_q3nhdbj7c0jrr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9b03090b-bd24-4b8f-b061-6963b0613b57</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Егор</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-29T08:09:52.968</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Scanner.Windows.exe">
+      <PackagePath>Scanner.Windows.exe</PackagePath>
+      <Modified>2015-09-29T09:16:45.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-04-29T11:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-04-29T11:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2015-05-15T08:53:02.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-06-30T11:17:42.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Shared\Scanner.Core\bin\Debug\Scanner.Core.dll">
+      <PackagePath>Scanner.Core.dll</PackagePath>
+      <Modified>2015-09-24T08:46:25.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Shared\Scanner.DataAccess\bin\Debug\Scanner.DataAccess.dll">
+      <PackagePath>Scanner.DataAccess.dll</PackagePath>
+      <Modified>2015-09-24T08:46:27.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Shared\Scanner.Models\bin\Debug\Scanner.Models.dll">
+      <PackagePath>Scanner.Models.dll</PackagePath>
+      <Modified>2015-09-22T10:47:18.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Scanner.Windows.ViewModels.dll">
+      <PackagePath>Scanner.Windows.ViewModels.dll</PackagePath>
+      <Modified>2015-09-29T09:16:43.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Scanner.Windows.Core.dll">
+      <PackagePath>Scanner.Windows.Core.dll</PackagePath>
+      <Modified>2015-09-29T09:16:42.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Lumia.Imaging.Managed.dll">
+      <PackagePath>Lumia.Imaging.Managed.dll</PackagePath>
+      <Modified>2015-09-16T09:46:52.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Shim.Drawing.dll">
+      <PackagePath>Shim.Drawing.dll</PackagePath>
+      <Modified>2015-08-29T17:47:23.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Shim.dll">
+      <PackagePath>Shim.dll</PackagePath>
+      <Modified>2015-08-29T17:47:21.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Microsoft.Windows.Ocr.1.0.0\build\win81\..\..\lib\win81\x86\WindowsPreview.Media.Ocr.dll">
+      <PackagePath>WindowsPreview.Media.Ocr.dll</PackagePath>
+      <Modified>2015-05-27T11:07:24.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Lumia.Imaging.dll">
+      <PackagePath>Lumia.Imaging.dll</PackagePath>
+      <Modified>2015-09-16T09:46:52.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Lumia.InteropServices.WindowsRuntime.dll">
+      <PackagePath>Lumia.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-09-16T09:46:52.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\WriteableBitmapEx.1.5.0.0\lib\NetCore45\WriteableBitmapEx.WinRT.dll">
+      <PackagePath>WriteableBitmapEx.WinRT.dll</PackagePath>
+      <Modified>2015-08-27T18:49:49.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\portable.aforge.core.2.2.5.50513\lib\netcore451\AForge.dll">
+      <PackagePath>AForge.dll</PackagePath>
+      <Modified>2015-08-29T17:47:23.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\portable.aforge.imaging.2.2.5.50513\lib\portable-net45+netcore45+wpa81\AForge.Imaging.dll">
+      <PackagePath>AForge.Imaging.dll</PackagePath>
+      <Modified>2015-08-29T17:47:23.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\portable.aforge.math.2.2.5.50513\lib\portable-net45+netcore45+wpa81\AForge.Math.dll">
+      <PackagePath>AForge.Math.dll</PackagePath>
+      <Modified>2015-08-29T17:47:23.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Debug\OpenCVRT.Windows\OpenCVRT.Windows.dll">
+      <PackagePath>OpenCVRT.Windows.dll</PackagePath>
+      <Modified>2015-09-29T12:16:06.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\packages\Microsoft.Windows.Ocr.1.0.0\build\win81\\..\..\lib\win81\x86\WindowsPreview.Media.Ocr.winmd">
+      <PackagePath>WindowsPreview.Media.Ocr.winmd</PackagePath>
+      <Modified>2015-05-27T11:07:24.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Lumia.Imaging.winmd">
+      <PackagePath>Lumia.Imaging.winmd</PackagePath>
+      <Modified>2015-09-16T09:46:52.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\OpenCVRT.winmd">
+      <PackagePath>OpenCVRT.winmd</PackagePath>
+      <Modified>2015-09-29T08:08:20.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\bin\x86\Debug\Lumia.InteropServices.WindowsRuntime.winmd">
+      <PackagePath>Lumia.InteropServices.WindowsRuntime.winmd</PackagePath>
+      <Modified>2015-09-16T09:46:52.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\Assets\IMG_1065.JPG">
+      <PackagePath>Assets\IMG_1065.JPG</PackagePath>
+      <Modified>2013-08-12T14:20:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\OcrResources\MsOcrRes.orp">
+      <PackagePath>OcrResources\MsOcrRes.orp</PackagePath>
+      <Modified>2015-05-27T11:18:39.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows.Core\OcrResources\MsOcrRes.orp">
+      <PackagePath>Scanner.Windows.Core\OcrResources\MsOcrRes.orp</PackagePath>
+      <Modified>2015-05-27T11:23:46.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-15T11:40:08.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\CurrentCategoryView\CurrentCategoryView.xbf">
+      <PackagePath>Views\CurrentCategoryView\CurrentCategoryView.xbf</PackagePath>
+      <Modified>2015-09-15T11:40:08.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\DocumentView\DocumentView.xbf">
+      <PackagePath>Views\DocumentView\DocumentView.xbf</PackagePath>
+      <Modified>2015-09-22T09:29:44.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\MainView\MainView.xbf">
+      <PackagePath>Views\MainView\MainView.xbf</PackagePath>
+      <Modified>2015-09-15T11:40:08.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\PhotoView\CropControl.xbf">
+      <PackagePath>Views\PhotoView\CropControl.xbf</PackagePath>
+      <Modified>2015-09-23T13:23:35.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\PhotoView\CustomControl.xbf">
+      <PackagePath>Views\PhotoView\CustomControl.xbf</PackagePath>
+      <Modified>2015-09-15T11:40:08.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\PhotoView\PhotoView.xbf">
+      <PackagePath>Views\PhotoView\PhotoView.xbf</PackagePath>
+      <Modified>2015-09-23T13:23:35.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Views\PostProccesView\PostProccesView.xbf">
+      <PackagePath>Views\PostProccesView\PostProccesView.xbf</PackagePath>
+      <Modified>2015-09-18T12:26:22.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\Scanner.Windows.xr.xml">
+      <PackagePath>Scanner.Windows.xr.xml</PackagePath>
+      <Modified>2015-09-23T13:23:35.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Scanner\Windows\Scanner.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-29T09:16:46.029</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

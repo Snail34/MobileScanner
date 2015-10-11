@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{e99757d1-fbc3-43aa-a3cf-9f4b018ef02d}</ItemsProjectGuid>
+    <ItemsRootNamespace>libpng</ItemsRootNamespace>
+    <ItemsProjectName>libpng.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)example.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)png.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngerror.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngget.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngmem.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngpread.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngread.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngrio.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngrtran.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngrutil.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngset.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngtest.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngtrans.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngwio.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngwrite.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngwtran.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)png.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pngconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pngdebug.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pnginfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pnglibconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pngpriv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pngstruct.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{b15e052e-9194-4f7d-994a-5f0f06bc799b}</ItemsProjectGuid>
+    <ItemsRootNamespace>opencv_videoio</ItemsRootNamespace>
+    <ItemsProjectName>opencv_videoio.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_bridge.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_capture.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_video.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ffmpeg_codecs.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ppltasks_winrt.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_bridge.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_capture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_video.cpp" />
+  </ItemGroup>
+</Project>

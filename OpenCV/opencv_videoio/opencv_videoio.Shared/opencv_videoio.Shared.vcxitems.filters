@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_bridge.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_capture.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cap_winrt_video.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ffmpeg_codecs.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ppltasks_winrt.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_bridge.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_capture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cap_winrt_video.cpp" />
+  </ItemGroup>
+</Project>

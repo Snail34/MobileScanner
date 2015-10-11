@@ -1,0 +1,39 @@
+﻿Сборка начата 29.09.2015 15:15:59.
+     1>Проект "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\ /I"Generated Files\\" /IDebug\ /ID:\Projects\Scanner\OpenCVRT\OpenCVRT.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj D:\Projects\Scanner\OpenCVRT\OpenCVRT.Shared\OpencvImageProcess.cpp
+         OpencvImageProcess.cpp
+     1>d:\projects\scanner\opencvrt\opencvrt.shared\opencvimageprocess.h(16): warning C4453: "Windows::UI::Xaml::Media::Imaging::WriteableBitmap": Тип "[WebHostHidden]" не должен использоваться на опубликованной поверхности открытого типа, который не является типом "[WebHostHidden]"
+     1>Проект "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" (1) выполняет сборку "D:\Projects\Scanner\OpenCV\opencv_core\opencv_core.Windows\opencv_core.Windows.vcxproj" (3:4) в узле 1 (целевые объекты GetResolvedLinkLibs).
+     3>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project '..\..\..\NativeLibraries\NativeW8_1\3rdParty\zlib\zlib.vcxproj' does not exist.
+     3>Сборка проекта "D:\Projects\Scanner\OpenCV\opencv_core\opencv_core.Windows\opencv_core.Windows.vcxproj" завершена (целевые объекты GetResolvedLinkLibs).
+     1>Проект "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" (1) выполняет сборку "D:\Projects\Scanner\OpenCV\opencv_imgcodecs\opencv_imgcodecs.Windows\opencv_imgcodecs.Windows.vcxproj" (4:7) в узле 1 (целевые объекты GetResolvedLinkLibs).
+     4>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project '..\..\..\NativeLibraries\NativeW8_1\3rdParty\IlmImf\IlmImf.Windows\IlmImf.Windows.vcxproj' does not exist.
+     4>Сборка проекта "D:\Projects\Scanner\OpenCV\opencv_imgcodecs\opencv_imgcodecs.Windows\opencv_imgcodecs.Windows.vcxproj" завершена (целевые объекты GetResolvedLinkLibs).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Scanner\Debug\OpenCVRT.Windows\OpenCVRT.Windows.dll" /INCREMENTAL /NOLOGO runtimeobject.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Projects\Scanner\Debug\OpenCVRT.Windows\OpenCVRT.Windows.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"D:\Projects\Scanner\Debug\OpenCVRT.Windows\OpenCVRT.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL Debug\OpencvImageProcess.obj
+         Debug\pch.obj
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_hal.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_core.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_flann.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\libjasper.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\libjpeg.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\libpng.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\libtiff.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_imgcodecs.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_imgproc.Windows.lib"
+         "D:\Projects\Scanner\!VS_TMP\Lib\v120\Win32\Debug\opencv_calib3d.Windows.lib"
+         D:\Projects\Scanner\Debug\opencv_features2d.Windows\opencv_features2d.Windows.lib
+         D:\Projects\Scanner\Debug\zlib.Windows\zlib.Windows.lib
+         OpenCVRT.Windows.vcxproj -> D:\Projects\Scanner\Debug\OpenCVRT.Windows\OpenCVRT.Windows.dll
+     1>Проект "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" (1) выполняет сборку "D:\Projects\Scanner\OpenCV\opencv_core\opencv_core.Windows\opencv_core.Windows.vcxproj" (3:11) в узле 1 (целевые объекты GetPackagingOutputs).
+     3>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(2822,9): warning MSB3202: файл "..\..\..\NativeLibraries\NativeW8_1\3rdParty\zlib\zlib.vcxproj" не найден.
+     3>Сборка проекта "D:\Projects\Scanner\OpenCV\opencv_core\opencv_core.Windows\opencv_core.Windows.vcxproj" завершена (целевые объекты GetPackagingOutputs).
+     1>Проект "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" (1) выполняет сборку "D:\Projects\Scanner\OpenCV\opencv_imgcodecs\opencv_imgcodecs.Windows\opencv_imgcodecs.Windows.vcxproj" (4:11) в узле 1 (целевые объекты GetPackagingOutputs).
+     4>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(2822,9): warning MSB3202: файл "..\..\..\NativeLibraries\NativeW8_1\3rdParty\IlmImf\IlmImf.Windows\IlmImf.Windows.vcxproj" не найден.
+     4>Сборка проекта "D:\Projects\Scanner\OpenCV\opencv_imgcodecs\opencv_imgcodecs.Windows\opencv_imgcodecs.Windows.vcxproj" завершена (целевые объекты GetPackagingOutputs).
+     1>Сборка проекта "D:\Projects\Scanner\OpenCVRT\OpenCVRT.Windows\OpenCVRT.Windows.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:09.73

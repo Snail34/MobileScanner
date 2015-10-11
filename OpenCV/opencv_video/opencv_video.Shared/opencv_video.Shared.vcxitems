@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{57f7dc5d-322c-4231-bc4a-3ec32f400d17}</ItemsProjectGuid>
+    <ItemsRootNamespace>opencv_video</ItemsRootNamespace>
+    <ItemsProjectName>opencv_video.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\bgfg_KNN.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\camshift.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\compat_video.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ecc.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\kalman.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lkpyramid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\lkpyramid.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+  </ItemGroup>
+</Project>

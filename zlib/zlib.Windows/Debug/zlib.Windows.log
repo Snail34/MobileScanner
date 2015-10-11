@@ -1,0 +1,65 @@
+﻿Сборка начата 25.09.2015 16:15:21.
+     1>Проект "D:\Projects\Scanner\zlib\zlib.Windows\zlib.Windows.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\Scanner\zlib\zlib.Windows\ /I"Generated Files\\" /IDebug\ /ID:\Projects\Scanner\zlib\zlib.Shared\ /ZI /nologo /W3 /WX- /sdl- /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Projects\Scanner\zlib\zlib.Shared\adler32.c D:\Projects\Scanner\zlib\zlib.Shared\compress.c D:\Projects\Scanner\zlib\zlib.Shared\crc32.c D:\Projects\Scanner\zlib\zlib.Shared\deflate.c D:\Projects\Scanner\zlib\zlib.Shared\gzclose.c D:\Projects\Scanner\zlib\zlib.Shared\gzlib.c D:\Projects\Scanner\zlib\zlib.Shared\gzread.c D:\Projects\Scanner\zlib\zlib.Shared\gzwrite.c D:\Projects\Scanner\zlib\zlib.Shared\infback.c D:\Projects\Scanner\zlib\zlib.Shared\inffast.c D:\Projects\Scanner\zlib\zlib.Shared\inflate.c D:\Projects\Scanner\zlib\zlib.Shared\inftrees.c D:\Projects\Scanner\zlib\zlib.Shared\trees.c D:\Projects\Scanner\zlib\zlib.Shared\uncompr.c D:\Projects\Scanner\zlib\zlib.Shared\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+     1>d:\projects\scanner\zlib\zlib.shared\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168): см. объявление "strerror"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575): см. объявление "wcstombs"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575): см. объявление "wcstombs"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346): см. объявление "_snprintf"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(245): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(274): см. объявление "_wopen"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(245): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(237): см. объявление "_open"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346): см. объявление "_snprintf"
+     1>d:\projects\scanner\zlib\zlib.shared\gzlib.c(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346): см. объявление "_snprintf"
+         gzwrite.c
+         infback.c
+     1>d:\projects\scanner\zlib\zlib.shared\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168): см. объявление "strerror"
+     1>d:\projects\scanner\zlib\zlib.shared\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168): см. объявление "strerror"
+     1>d:\projects\scanner\zlib\zlib.shared\gzwrite.c(357): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337): см. объявление "vsnprintf"
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Projects\Scanner\Debug\zlib.Windows\zlib.Windows.lib" /NOLOGO Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         zlib.Windows.vcxproj -> D:\Projects\Scanner\Debug\zlib.Windows\zlib.Windows.lib
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot D:\Projects\Scanner\zlib\zlib.Windows\ -ConfigXml Debug\priconfig.xml -OutputFile D:\Projects\Scanner\Debug\zlib.Windows\zlib.pri -IndexName zlib -Verbose -Overwrite  
+     1>Сборка проекта "D:\Projects\Scanner\zlib\zlib.Windows\zlib.Windows.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:10.51

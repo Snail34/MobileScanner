@@ -1,0 +1,44 @@
+﻿Сборка начата 25.09.2015 16:15:32.
+     1>Проект "D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Windows\opencv_features2d.Windows.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Windows\ /I"Generated Files\\" /IDebug\ /ID:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D WIN32 /D _WIN32_WINNT=0x0602 /D OPENCV_NOSTL /D __OPENCV_BUILD /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\agast.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\agast_score.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\akaze.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\bagofwords.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\blobdetector.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\brisk.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\draw.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\dynamic.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\evaluation.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\fast_score.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\feature2d.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\gftt.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\kaze.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\keypoint.cpp D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Shared\src\mser.cpp
+         agast.cpp
+         agast_score.cpp
+         akaze.cpp
+         bagofwords.cpp
+         blobdetector.cpp
+         brisk.cpp
+         draw.cpp
+         dynamic.cpp
+         evaluation.cpp
+         fast_score.cpp
+         feature2d.cpp
+         gftt.cpp
+         kaze.cpp
+         keypoint.cpp
+         mser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Projects\Scanner\Debug\opencv_features2d.Windows\opencv_features2d.Windows.lib" /NOLOGO Debug\agast.obj
+         Debug\agast_score.obj
+         Debug\akaze.obj
+         Debug\bagofwords.obj
+         Debug\blobdetector.obj
+         Debug\brisk.obj
+         Debug\draw.obj
+         Debug\dynamic.obj
+         Debug\evaluation.obj
+         Debug\fast_score.obj
+         Debug\feature2d.obj
+         Debug\gftt.obj
+         Debug\kaze.obj
+         Debug\keypoint.obj
+         Debug\mser.obj
+     1>dynamic.obj : warning LNK4221: ▌ЄюЄ Їрщы юс·хъЄр эх юяЁхфхы хЄ ъръшх-ышсю Ёрэхх эхюяЁхфхыхээ√х юЄъЁ√Є√х ёшьтюы√, яю¤Єюьє юэ эх сєфхЄ шёяюы№чютрЄ№ё  эшъръшьш юяхЁрЎш ьш ъюьяюэютъш, юсЁр∙р■∙шьшё  ъ ¤Єющ сшсышюЄхъх
+         opencv_features2d.Windows.vcxproj -> D:\Projects\Scanner\Debug\opencv_features2d.Windows\opencv_features2d.Windows.lib
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Windows\ -ConfigXml Debug\priconfig.xml -OutputFile D:\Projects\Scanner\Debug\opencv_features2d.Windows\opencv_features2d.pri -IndexName opencv_features2d -Verbose -Overwrite  
+     1>Сборка проекта "D:\Projects\Scanner\OpenCV\opencv_features2d\opencv_features2d.Windows\opencv_features2d.Windows.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:39.76

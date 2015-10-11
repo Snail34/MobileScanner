@@ -1,0 +1,13 @@
+D:\Projects\Scanner\Shared\Scanner.Core\Scanner.Core.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Core\Scanner.Core.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Core\Scanner.Core.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Core\Scanner.Core.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.DataAccess\Scanner.DataAccess.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.DataAccess\Scanner.DataAccess.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Models\Scanner.Models.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Models\Scanner.Models.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Models\Scanner.Models.csproj;neutral
+D:\Projects\Scanner\Shared\Scanner.Models\Scanner.Models.csproj;neutral
+D:\Projects\Scanner\Windows\Scanner.Windows.Core\Scanner.Windows.Core.csproj;arm
+D:\Projects\Scanner\Windows\Scanner.Windows.ViewModels\Scanner.Windows.ViewModels.csproj;arm
+D:\Projects\Scanner\Windows\Scanner.Windows\Scanner.Windows.csproj;arm

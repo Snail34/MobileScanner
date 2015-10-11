@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{0379f787-deaf-4e5b-b2af-7ce0b8f0b1de}</ItemsProjectGuid>
+    <ItemsRootNamespace>libtiff</ItemsRootNamespace>
+    <ItemsProjectName>libtiff.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)t4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tiff.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tiffio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tiffio.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tiffiop.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tiffvers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tif_config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tif_dir.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tif_fax3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tif_predict.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uvcode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_aux.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_close.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_codec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_color.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_compress.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_dir.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_dirinfo.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_dirread.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_dirwrite.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_dumpmode.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_error.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_extension.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_fax3.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_fax3sm.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_flush.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_getimage.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_jbig.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_jpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_jpeg_12.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_luv.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_lzma.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_lzw.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_next.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_ojpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_open.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_packbits.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_pixarlog.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_predict.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_print.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_read.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_stream.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_strip.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_swab.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_thunder.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_tile.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_unix.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_version.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_warning.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_write.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)tif_zip.c" />
+  </ItemGroup>
+</Project>

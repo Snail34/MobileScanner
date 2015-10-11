@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_geom.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\filterengine.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\gcgraph.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\opencl_kernels_imgproc.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\accum.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\approx.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\blend.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\canny.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clahe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\color.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\colormap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\connectedcomponents.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\contours.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\convhull.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\corner.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cornersubpix.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\demosaicing.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\deriv.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\distransform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\drawing.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\emd.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\featureselect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\filter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\floodfill.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\gabor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\generalized_hough.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\geometry.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grabcut.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hershey_fonts.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\histogram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hough.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\imgwarp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\intersection.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\linefit.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\lsd.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\matchcontours.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\min_enclosing_triangle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\moments.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\morph.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\phasecorr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\pyramids.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\rotcalipers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\samplers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\segmentation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\shapedescr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\smooth.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\subdivision2d.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\sumpixels.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\tables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\templmatch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\thresh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\undistort.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\opencl_kernels_imgproc.cpp" />
+  </ItemGroup>
+</Project>

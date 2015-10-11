@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="Scanner.Windows.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scanner.Windows"
+    xmlns:vm="using:Scanner.Windows.ViewModels"
+    xmlns:core="using:Scanner.Core.Converters">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="Locator"/>
+            <core:DebugConverter x:Key="DebugConverter" />
+            <core:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+            <core:ItemClickedConverter x:Name="ItemClickedConverter" />
+        </ResourceDictionary>
+
+    </Application.Resources>
+
+</Application>
+    
+    

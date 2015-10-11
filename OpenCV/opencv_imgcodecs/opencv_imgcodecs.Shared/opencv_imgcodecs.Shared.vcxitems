@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ee036961-9c46-4356-84e9-4578ca012890}</ItemsProjectGuid>
+    <ItemsRootNamespace>opencv_imgcodecs</ItemsRootNamespace>
+    <ItemsProjectName>opencv_imgcodecs.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\bitstrm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_base.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_bmp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_exr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_gdal.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_hdr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_jpeg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_jpeg2000.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_png.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_pxm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_sunras.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_tiff.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\grfmt_webp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\loadsave.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\rgbe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\bitstrm.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmts.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_base.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_bmp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_exr.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_gdal.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_hdr.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_jpeg.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_png.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_pxm.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_sunras.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_tiff.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\grfmt_webp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\precomp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\rgbe.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\utils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\ios_conversions.mm" />
+  </ItemGroup>
+</Project>

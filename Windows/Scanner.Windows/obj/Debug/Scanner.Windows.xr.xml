@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="RecognizeCommand" />
+    <RootPropertyPathName Name="RotateCommand" />
+    <RootPropertyPathName Name="RotateLeftCommand" />
+    <RootPropertyPathName Name="PhotoCommand" />
+    <RootPropertyPathName Name="CapturedImage" />
+    <RootPropertyPathName Name="ImageLeftTransform" />
+    <RootPropertyPathName Name="ImageTransform" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.ViewModels.MainViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Scanner.Core.ControlExtentions.ImageExtensions">
+      <RootMethod Name="GetFile" />
+      <RootMethod Name="SetFile" />
+    </RootType>
+    <RootType FullName="Scanner.Core.ControlExtensions.RotateExtensions">
+      <RootMethod Name="GetRotateLeft" />
+      <RootMethod Name="SetRotateLeft" />
+      <RootMethod Name="GetRotate" />
+      <RootMethod Name="SetRotate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Label" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
+    <RootType FullName="Scanner.Windows.Views.MainView.MainView" />
+  </Roots.RootTypes>
+</Roots>

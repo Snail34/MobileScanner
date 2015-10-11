@@ -1,0 +1,151 @@
+﻿<common:ViewBase
+    x:Name="CurrentCategoryPage"
+    x:Class="Scanner.Windows.Views.CurrentCategoryView.CurrentCategoryView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scanner.Windows.Views.CurrentCategoryView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:common="using:Scanner.Windows.Common"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:ViewModels="using:Scanner.Windows.ViewModels"
+    OnNavigatedToCommand="{Binding OnNavigatedToCommand}"
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <ViewModels:CurrentCategoryViewModel x:Name="CurrentCategoryViewModel" />
+    </Page.DataContext>
+    
+    <Page.Resources>
+        <Style TargetType="GridViewItem" x:Key="GridViewItemStyle">
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Background" Value="CadetBlue"/>
+            <Setter Property="Width" Value="400" />
+            <Setter Property="Height" Value="400" />
+            <Setter Property="Margin" Value="0,0,2,2"/>
+        </Style>
+    </Page.Resources>
+    
+    <Page.TopAppBar>
+        <CommandBar Visibility="{Binding IsTopAppBarVisible, Converter={StaticResource BooleanToVisibilityConverter}}"> 
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Pin to start" Command="{Binding PinCategoryCommand}"/>
+                <AppBarButton Label="Rename category">
+                    <AppBarButton.Flyout>
+                        <Flyout>
+                            <StackPanel Orientation="Vertical" Margin="20">
+                                <TextBlock FontSize="20" Grid.Row="0" Text="Rename category"/>
+                                <TextBox x:Name="CategoryNameTextBox" 
+                                         Text="{Binding CurrentCategory.CategoryName}"
+                                         Height="20" 
+                                         Width="260" 
+                                         HorizontalAlignment="Center"            
+                                         Grid.Row="1">
+                                </TextBox>
+                                <Button Height="40" 
+                                        Width="150" 
+                                        HorizontalAlignment="Right" 
+                                        Content="Save" Command="{Binding RenameCategoryCommand}" 
+                                        CommandParameter="{Binding Text, ElementName=CategoryNameTextBox}"/>
+                            </StackPanel>
+                        </Flyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+                <AppBarButton Label="Delete category" Command="{Binding DeleteCategoryCommand}"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <Page.BottomAppBar>
+        <CommandBar IsOpen="{Binding IsBottomAppBarOpen, Mode=TwoWay}" 
+                    IsSticky="{Binding IsBottomAppBarSticky, Mode=TwoWay}">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="New scan via shoot" Command="{Binding AddDocumentCommand}" />
+                <AppBarButton Label="New scan via import" Command="{Binding NewScanCommand}"/>
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Merge documents" Command="{Binding MergeDocumentsCommand}"/>
+                <AppBarButton Label="Delete documents">
+                    <AppBarButton.Flyout>
+                        <Flyout>
+                            <StackPanel Orientation="Vertical" Margin="15" Width="300">
+                                <TextBlock FontSize="20" Grid.Row="0" Text="Selected documents will be deleted. Are you sure?"/>
+
+                                <Button x:Name="NewCategoryButton" 
+                                        Command="{Binding DeleteDocumentCommand}" 
+                                        CommandParameter="{Binding Path=SelectedDocuments}"
+                                        Height="40" 
+                                        Width="150" 
+                                        HorizontalAlignment="Right" 
+                                        Content="Delete" />
+                            </StackPanel>
+                        </Flyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <AppBarButton Grid.Row="0" 
+                      Icon="Back" 
+                      VerticalAlignment="Center"
+                      Command="{Binding BackCommand}">
+        </AppBarButton>
+
+        <StackPanel Grid.Row="1" Margin="40,0,0,0" Orientation="Vertical">
+            <TextBlock FontSize="40" Text="Scanner"></TextBlock>
+            <TextBlock FontSize="36" Text="{Binding CurrentCategory.CategoryName, Mode=TwoWay}" />
+        </StackPanel>
+        
+        <GridView x:Name="CurrentCategoryDocuments" 
+                  Grid.Row="2" 
+                  ItemsSource="{Binding CurrentCategory.CategoryDocuments}"
+                  IsItemClickEnabled="True"
+                  SelectionMode="Multiple"
+                  Height="450"
+                  Margin="40,0,0,0"
+                  ItemContainerStyle="{StaticResource GridViewItemStyle}">
+            
+            <Interactivity:Interaction.Behaviors>
+                <common:GridViewSelectedItemBehavior SelectedItems="{Binding SelectedItems, Mode=TwoWay}"/>
+                <Core:EventTriggerBehavior EventName="SelectionChanged">
+                    <Core:InvokeCommandAction Command="{Binding SelectionChangedCommand}"/>
+                </Core:EventTriggerBehavior>
+                <Core:EventTriggerBehavior EventName="ItemClick">
+                    <Core:InvokeCommandAction Command="{Binding DocumentItemClickCommand}" 
+                                              InputConverter="{StaticResource ItemClickedConverter}" />
+                </Core:EventTriggerBehavior>
+            </Interactivity:Interaction.Behaviors>
+            
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" FontSize="10" Text="{Binding ID}" />
+                        <TextBlock Grid.Row="1" FontSize="10" Text="{Binding DocumentName}"/>
+                        <TextBlock Grid.Row="2" FontSize="20" Text="{Binding DocumentPageCounter}"/>
+                    </Grid>                    
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+        <!--<TextBlock Grid.Row="2" 
+                   Text="No documents yet, import from camera or gallery" 
+                   Visibility="{Binding IsCategoryEmpty, Converter={StaticResource BooleanToVisibilityConverter}}" />-->
+    </Grid>
+</common:ViewBase>
+

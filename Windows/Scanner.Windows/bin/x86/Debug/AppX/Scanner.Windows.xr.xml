@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="OnNavigatedToCommand" />
+    <RootPropertyPathName Name="IsTopAppBarVisible" />
+    <RootPropertyPathName Name="DeleteCategoryCommand" />
+    <RootPropertyPathName Name="RenameCategoryCommand" />
+    <RootPropertyPathName Name="Text" />
+    <RootPropertyPathName Name="CurrentCategory" />
+    <RootPropertyPathName Name="CategoryName" />
+    <RootPropertyPathName Name="PinCategoryCommand" />
+    <RootPropertyPathName Name="IsBottomAppBarOpen" />
+    <RootPropertyPathName Name="IsBottomAppBarSticky" />
+    <RootPropertyPathName Name="NewScanCommand" />
+    <RootPropertyPathName Name="AddDocumentCommand" />
+    <RootPropertyPathName Name="DeleteDocumentCommand" />
+    <RootPropertyPathName Name="SelectedDocuments" />
+    <RootPropertyPathName Name="MergeDocumentsCommand" />
+    <RootPropertyPathName Name="CategoryDocuments" />
+    <RootPropertyPathName Name="DocumentItemClickCommand" />
+    <RootPropertyPathName Name="SelectionChangedCommand" />
+    <RootPropertyPathName Name="SelectedItems" />
+    <RootPropertyPathName Name="DocumentPageCounter" />
+    <RootPropertyPathName Name="DocumentName" />
+    <RootPropertyPathName Name="ID" />
+    <RootPropertyPathName Name="BackCommand" />
+    <RootPropertyPathName Name="PinDocumentCommand" />
+    <RootPropertyPathName Name="DeleteCurrentDocumentCommand" />
+    <RootPropertyPathName Name="LoadCategoryNamesCommand" />
+    <RootPropertyPathName Name="MoveToCategoryCommand" />
+    <RootPropertyPathName Name="SelectedItem" />
+    <RootPropertyPathName Name="CategoryNames" />
+    <RootPropertyPathName Name="SelectedCategoryName" />
+    <RootPropertyPathName Name="RenameDocumentCommand" />
+    <RootPropertyPathName Name="CurrentDocument" />
+    <RootPropertyPathName Name="AddFromGalleryCommand" />
+    <RootPropertyPathName Name="AddPageCommand" />
+    <RootPropertyPathName Name="DeletePagesCommand" />
+    <RootPropertyPathName Name="MergePagesCommand" />
+    <RootPropertyPathName Name="Pages" />
+    <RootPropertyPathName Name="PageItemClickCommand" />
+    <RootPropertyPathName Name="MbSize" />
+    <RootPropertyPathName Name="DateCreated" />
+    <RootPropertyPathName Name="TimeCreated" />
+    <RootPropertyPathName Name="PageName" />
+    <RootPropertyPathName Name="LoadDataCommand" />
+    <RootPropertyPathName Name="Categories" />
+    <RootPropertyPathName Name="IsFlyoutOpen" />
+    <RootPropertyPathName Name="AddNewCategoryCommand" />
+    <RootPropertyPathName Name="NewCategoryString" />
+    <RootPropertyPathName Name="SortItemsCommand" />
+    <RootPropertyPathName Name="SelectedValue" />
+    <RootPropertyPathName Name="DocumentSize" />
+    <RootPropertyPathName Name="DataContext" />
+    <RootPropertyPathName Name="AllCategoryDocumentsCommand" />
+    <RootPropertyPathName Name="ImportCommand" />
+    <RootPropertyPathName Name="PhotoCommand" />
+    <RootPropertyPathName Name="CurrentPosition" />
+    <RootPropertyPathName Name="RightBottomPosition" />
+    <RootPropertyPathName Name="RightBottomY" />
+    <RootPropertyPathName Name="RightBottomX" />
+    <RootPropertyPathName Name="LeftBottomPosition" />
+    <RootPropertyPathName Name="LeftBottomY" />
+    <RootPropertyPathName Name="LeftBottomX" />
+    <RootPropertyPathName Name="RightTopPosition" />
+    <RootPropertyPathName Name="RightTopY" />
+    <RootPropertyPathName Name="RightTopX" />
+    <RootPropertyPathName Name="LeftTopPosition" />
+    <RootPropertyPathName Name="LeftTopY" />
+    <RootPropertyPathName Name="LeftTopX" />
+    <RootPropertyPathName Name="ImageFile" />
+    <RootPropertyPathName Name="RotationAngle" />
+    <RootPropertyPathName Name="PointsData" />
+    <RootPropertyPathName Name="LeftTopLinePoint" />
+    <RootPropertyPathName Name="LeftTopPoint" />
+    <RootPropertyPathName Name="X" />
+    <RootPropertyPathName Name="Y" />
+    <RootPropertyPathName Name="RightTopPoint" />
+    <RootPropertyPathName Name="LeftBottomPoint" />
+    <RootPropertyPathName Name="RightBottomPoint" />
+    <RootPropertyPathName Name="RightTopLinePoint" />
+    <RootPropertyPathName Name="LeftBottomLinePoint" />
+    <RootPropertyPathName Name="RightBottomLinePoint" />
+    <RootPropertyPathName Name="CapturedImage" />
+    <RootPropertyPathName Name="CropControlHeight" />
+    <RootPropertyPathName Name="CropControlWidth" />
+    <RootPropertyPathName Name="ScaleX" />
+    <RootPropertyPathName Name="ScaleY" />
+    <RootPropertyPathName Name="ProccesCommand" />
+    <RootPropertyPathName Name="DeletePageCommand" />
+    <RootPropertyPathName Name="RotateRightCommand" />
+    <RootPropertyPathName Name="RotateLeftCommand" />
+    <RootPropertyPathName Name="ResetEdgesCommand" />
+    <RootPropertyPathName Name="SelectedPage" />
+    <RootPropertyPathName Name="FlipViewSelectionChangedCommand" />
+    <RootPropertyPathName Name="Path" />
+    <RootPropertyPathName Name="SaveCommand" />
+    <RootPropertyPathName Name="SelectFilterCommand" />
+    <RootPropertyPathName Name="RescanCommand" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
+    <RootType FullName="Scanner.Windows.ViewModels.ViewModelLocator" />
+    <RootType FullName="Scanner.Core.Converters.DebugConverter" />
+    <RootType FullName="Scanner.Core.Converters.BooleanToVisibilityConverter" />
+    <RootType FullName="Scanner.Core.Converters.ItemClickedConverter" />
+    <RootType FullName="Scanner.Windows.Common.ViewBase">
+      <RootProperty Name="OnNavigatedToCommand" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="TopAppBar" />
+      <RootProperty Name="BottomAppBar" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="RelativeSource" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.ViewModels.CurrentCategoryViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="TabNavigation" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="SecondaryCommands" />
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="IsSticky" />
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Label" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Flyout" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="CanDragItems" />
+      <RootProperty Name="CanReorderItems" />
+      <RootProperty Name="AllowDrop" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="GroupStyle" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Common.GridViewSelectedItemBehavior">
+      <RootProperty Name="SelectedItems" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
+      <RootProperty Name="InputConverter" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.CurrentCategoryView.CurrentCategoryView" />
+    <RootType FullName="Scanner.Windows.ViewModels.DocumentViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="IsSticky" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="SelectedIndex" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="IsZoomInertiaEnabled" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="MaxZoomFactor" />
+      <RootProperty Name="VerticalSnapPointsAlignment" />
+      <RootProperty Name="HorizontalSnapPointsAlignment" />
+      <RootProperty Name="Content" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.DocumentView.DocumentView" />
+    <RootType FullName="Scanner.Windows.ViewModels.MainViewModel" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="IsHoldingEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
+      <RootProperty Name="Source" />
+      <RootProperty Name="ItemsPath" />
+      <RootProperty Name="IsSourceGrouped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+    </RootType>
+    <RootType FullName="Scanner.Core.ControlExtensions.FlyoutExtensions">
+      <RootMethod Name="GetIsOpen" />
+      <RootMethod Name="SetIsOpen" />
+      <RootMethod Name="GetParent" />
+      <RootMethod Name="SetParent" />
+    </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsWrapGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="MaximumRowsOrColumns" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GroupStyle">
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Panel" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.MainView.MainView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.PhotoView.CustomControl">
+      <RootProperty Name="Style" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="CurrentPosition" />
+      <RootEvent Name="ManipulationDelta" />
+    </RootType>
+    <RootType FullName="Scanner.Core.ControlExtentions.ImageExtensions">
+      <RootMethod Name="GetFile" />
+      <RootMethod Name="SetFile" />
+    </RootType>
+    <RootType FullName="Scanner.Core.Converters.PositionConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Child" />
+      <RootEvent Name="SizeChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Children" />
+      <RootProperty Name="RenderTransform" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Data" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LineGeometry">
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="EndPoint" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.PhotoView.CropControl">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="LeftTopPosition" />
+      <RootProperty Name="LeftTopX" />
+      <RootProperty Name="LeftTopY" />
+      <RootProperty Name="RightTopY" />
+      <RootProperty Name="RightTopX" />
+      <RootProperty Name="LeftBottomX" />
+      <RootProperty Name="LeftBottomY" />
+      <RootProperty Name="RightBottomX" />
+      <RootProperty Name="RightBottomY" />
+      <RootProperty Name="RightTopPosition" />
+      <RootProperty Name="LeftBottomPosition" />
+      <RootProperty Name="RightBottomPosition" />
+      <RootProperty Name="ImageFile" />
+      <RootProperty Name="CropActualHeight" />
+      <RootProperty Name="CropActualWidth" />
+      <RootProperty Name="ScaleX" />
+      <RootProperty Name="ScaleY" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.ViewModels.PhotoViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
+      <RootProperty Name="Placement" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutItem">
+      <RootProperty Name="Text" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Scanner.Windows.Views.PhotoView.PhotoView" />
+    <RootType FullName="Scanner.Windows.ViewModels.PostProccesViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedValue" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Scanner.Windows.Views.PostProccesView.PostProccesView" />
+  </Roots.RootTypes>
+</Roots>
